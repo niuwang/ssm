@@ -1,0 +1,19 @@
+（2）、题目二：
+现有2个文件，地址在：
+sdxl_prop.txt（http://qfc.qunar.com/homework/sdxl_prop.txt）
+sdxl_template.txt（http://qfc.qunar.com/homework/sdxl_template.txt）
+
+
+【要求】：
+
+根据sdxl_prop.txt中内容替换掉sdxl_template.txt 里$function(index)形式文字，将其还原成一本完整小说，写到文件sdxl.txt中，输出在classpath下。
+
+其中function有4种函数，替换规则如下：
+1) natureOrder 自然排序，即文本中排列顺序
+2) indexOrder 索引排序，文本中每行第一个数字为索引
+3) charOrder 文本排序，java的字符排序
+4) charOrderDESC 文本倒序，java的字符倒序
+
+
+注意：txt文件需要程序中现读现解析，而不是下载成本地文件。
+结果文件可以参考附件中的sdxl.txt
